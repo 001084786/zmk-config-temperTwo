@@ -481,10 +481,10 @@
 
         DEFAULT {
             bindings = <
-  &kp Q             &kp W        &kp E          &kp R           &kp T                 &kp Y    &kp U            &kp I            &kp O        &kp P
-  &hm LEFT_SHIFT A  &hm LCTRL S  &hm LALT D     &hm LEFT_GUI F  &kp G                 &kp H    &hm RIGHT_GUI J  &hm RIGHT_ALT K  &hm LCTRL L  &hm RIGHT_SHIFT APOS
-  &kp Z             &kp X        &kp C          &kp V           &kp B                 &kp N    &kp M            &kp COMMA        &kp DOT      &mt BSLH FSLH
-                                 &lt 5 LS(F10)  &lt 2 SPACE     &mt LEFT_SHIFT TAB    &kp RET  &lt 3 BACKSPACE  &lt 4 DEL
+  &kp Q  &kp W  &kp F          &kp P        &kp B                 &kp J    &kp L            &kp U      &kp Y    &kp SQT
+  &kp A  &kp R  &kp S          &kp T        &kp G                 &kp M    &kp N            &kp E      &kp I    &kp O
+  &kp Z  &kp X  &kp C          &kp D        &kp V                 &kp K    &kp H            &kp COMMA  &kp DOT  &kp LS(QMARK)
+                &lt 5 LS(F10)  &lt 2 SPACE  &mt LEFT_SHIFT TAB    &kp RET  &lt 3 BACKSPACE  &lt 4 DEL
             >;
         };
 
@@ -499,8 +499,8 @@
 
         NUM {
             bindings = <
-  &kp TILDE  &kp AT    &kp LPAR          &kp RPAR           &kp EXCL    &kp STAR   &kp N7  &kp N8   &kp N9  &kp MINUS
-  &kp CARET  &kp HASH  &kp LBRC          &kp RBRC           &kp DLLR    &kp FSLH   &kp N4  &kp N5   &kp N6  &kp PLUS
+  &kp TILDE  &kp AT    &kp LBRC          &kp RBRC           &kp EXCL    &kp STAR   &kp N7  &kp N8   &kp N9  &kp MINUS
+  &kp CARET  &kp HASH  &kp LPAR          &kp RPAR           &kp DLLR    &kp FSLH   &kp N4  &kp N5   &kp N6  &kp PLUS
   &kp AMPS   &kp LT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GT      &kp EQUAL  &kp N1  &kp N2   &kp N3  &kp RET
                        &trans            &trans             &trans      &kp PRCNT  &kp N0  &kp DOT
             >;
