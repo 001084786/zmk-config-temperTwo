@@ -481,19 +481,19 @@
 
         DEFAULT {
             bindings = <
-  &kp Q  &kp W  &kp F          &kp P        &kp B                 &kp J    &kp L            &kp U      &kp Y    &kp SQT
-  &kp A  &kp R  &kp S          &kp T        &kp G                 &kp M    &kp N            &kp E      &kp I    &kp O
-  &kp Z  &kp X  &kp C          &kp D        &kp V                 &kp K    &kp H            &kp COMMA  &kp DOT  &kp LS(QMARK)
-                &lt 5 LS(F10)  &lt 2 SPACE  &mt LEFT_SHIFT TAB    &kp RET  &lt 3 BACKSPACE  &lt 4 DEL
+  &kp Q  &kp W  &kp F          &kp P        &kp B                 &kp J      &kp L            &kp U      &kp Y    &kp SQT
+  &kp A  &kp R  &kp S          &kp T        &kp G                 &kp M      &kp N            &kp E      &kp I    &kp O
+  &kp Z  &kp X  &kp C          &kp D        &kp V                 &kp K      &kp H            &kp COMMA  &kp DOT  &kp QMARK
+                &lt 5 LS(F10)  &lt 2 SPACE  &mt LEFT_SHIFT TAB    &kp SPACE  &lt 3 BACKSPACE  &lt 4 DEL
             >;
         };
 
         GAME {
             bindings = <
-  &kp ESC    &kp Q  &kp W   &kp E      &kp R      &kp T   &kp N7        &kp N8  &kp N9  &kp BACKSPACE
-  &kp LSHFT  &kp A  &kp S   &kp D      &kp F      &kp G   &kp N4        &kp N5  &kp N6  &kp DOT
-  &kp LCTRL  &kp Z  &kp X   &kp C      &kp V      &kp B   &kp N1        &kp N2  &kp N3  &kp FSLH
-                    &trans  &kp SPACE  &kp TAB    &trans  &kp LEFT_ALT  &trans
+  &kp ESC    &kp Q  &kp W    &kp E     &kp R        &kp T   &kp N7        &kp N8  &kp N9  &kp BACKSPACE
+  &kp LSHFT  &kp A  &kp S    &kp D     &kp F        &kp G   &kp N4        &kp N5  &kp N6  &kp DOT
+  &kp LCTRL  &kp Z  &kp X    &kp C     &kp V        &kp B   &kp N1        &kp N2  &kp N3  &kp FSLH
+                    &kp TAB  &kp LALT  &kp SPACE    &trans  &kp LEFT_ALT  &trans
             >;
         };
 
